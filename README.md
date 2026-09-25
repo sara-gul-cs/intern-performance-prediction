@@ -1,18 +1,18 @@
-# Intern Performance Prediction Model
+Intern Performance Prediction Model
 
-## Objective
+Objective
 Build a machine learning model to predict intern performance based on task
 completion rates and feedback, in order to identify which interns are likely
 to excel or struggle.
 
-## Dataset
+Dataset
 A sample dataset of 20 interns with the following features:
 - `completion_time_days` — how long the intern took to complete tasks (lower = faster)
 - `feedback_rating` — mentor feedback score (out of 5)
 - `attendance_pct` — attendance percentage
 - `performance_score` — target variable (0–100), what the model predicts
 
-## Approach
+Approach
 1. **Data loading & exploration** — loaded the dataset with pandas, checked for
    missing values and reviewed summary statistics.
 2. **Train/test split** — 80/20 split, so the model is evaluated on data it
